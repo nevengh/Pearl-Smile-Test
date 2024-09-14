@@ -1,0 +1,53 @@
+.Doctor_Profile img{
+    width: 30%;
+}
+.Doctor_Profile{
+    width: 80%;
+    margin: 100px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.46); /* Optional: Add a shadow for better visibility */
+    padding: 20px;
+}
+.doctor_profile_first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.Doctor_profile_info h2{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0ad4e;
+}
+.Doctor_profile_info p{
+    font-size: 20px;
+    color: #f0ad4e;
+}
+.Doctor_profile_info p span{
+    font-size: 16px;
+    color: #a09e9e;
+}
+.doctor_about {
+    width: 80%;
+    margin: 50px auto;
+}
+.doctor_about p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.doctor_videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.doctor_videos video{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+

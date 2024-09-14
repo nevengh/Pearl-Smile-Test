@@ -1,0 +1,63 @@
+.ne_hero{
+  height: 90vh;
+}
+
+/* General styling for the slider */
+
+.slider-container {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Styling for the content overlay */
+  .slider-content {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    transform: translateY(-50%);
+    color: #000;
+    text-align: left;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(10, 9, 9, 0.495);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  .slider-content h2 {
+  
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #f0ad4e;
+  }
+  
+  .slider-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .slider-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+ 
+
+ 
